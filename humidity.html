@@ -1,4 +1,4 @@
-<!-- Landing/Home Page -->
+<!-- Visualization Page II (Humidity) -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -20,7 +20,7 @@
     <!-- Navigation Menu -->
     <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" style="background-color: black;" href="index.html">Latitude</a>
+            <a class="navbar-brand" style="background-color: #213159;" href="index.html">Latitude</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -53,15 +53,14 @@
         <div class="row">
             <div class="col-lg-7 col-md-12">
                 <!-- Left Content Box -->
-                <div class="box" style="padding-bottom: 20px;">
-                    <h3 class="title">Summary: Latitude vs. X</h3>
+                <div class="box">
+                    <h3 class="title">Humidity</h3>
                     <hr>
-                    <img src="Resources/Images/City_Latitude_vs_Max_Temperature.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-                    To accomplish this analysis, wefirst pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
-                    Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and
-                    visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                    <img src="Resources/Images/City_Latitude_vs_Humidity.png" class="vizualization rounded float-left" alt="Humidity Graph">
+                    <p>There seems to be little to no correlation between humidity and Latitude as well as with cloudiness and Latitude. 
+                        The scatter plot visualizations display a considerable amount of heterogeneity even at similar Latitudes. 
+                        Basically, they're all over the map. However, a small grouping of cities exhibited abnormally low humity levels 
+                        (at 0% humidity) in the Northern Hemisphere at around 60° to 75° Latitude.</p>
                 </div>
             </div>
             <div class="col-lg-5 col-md-12">
@@ -73,19 +72,19 @@
                         <div class="row" style="padding-bottom: 30px;">
                             <div class="col-6">
                                 <a href="temp.html">
-                                <img class="panel" src="Resources/Images/City_Latitude_vs_Max_Temperature.png" alt="Max Temperature Graph">
+                                  <img class="panel" src="Resources/Images/City_Latitude_vs_Max_Temperature.png" alt="Max Temperature Graph">
                                 </a>
                             </div>
                             <div class="col-6">
                                 <a href="humidity.html">
-                                <img class="panel" src="Resources/Images/City_Latitude_vs_Humidity.png" alt="Humidity Graph">
+                                    <img class="panel" src="Resources/Images/City_Latitude_vs_Humidity.png" alt="Humidity Graph">
                                 </a>
                             </div>
                         </div>
                         <div class="row" style="padding-bottom: 30px;">
                             <div class="col-6">
                                 <a href="cloudiness.html">
-                                <img class="panel" src="Resources/Images/City_Latitude_vs_Cloudiness.png" alt="Cloudiness Graph">
+                                    <img class="panel" src="Resources/Images/City_Latitude_vs_Cloudiness.png" alt="Cloudiness Graph">
                                 </a>
                             </div>
                             <div class="col-6">
